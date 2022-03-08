@@ -9,23 +9,23 @@ export default function NavBar() {
                 <nav class="flex">
                     <NavLink to="/" exact
                     activeClassName="text-white"
-                    className="inflex-flex items-center py-4 px-3 mr-4 text-red-100 crusive font-bold hover:text-yellow-300 text-4xl font-bold cursive tracking-widest">
+                    className="inflex-flex items-center py-4 px-3 mr-4 text-sky-200 crusive font-bold hover:text-yellow-300 text-4xl font-bold cursive tracking-widest">
                         Yaxin Li
                     </NavLink>
                     <NavLink to="/project" 
-                    className="inflex-flex items-center py-1 px-3 my-6 text-lg rounded text-red-200 font-bold hover:text-yellow-300"
-                    activeClassName="text-red-100 bg-red-700">
+                    className="inflex-flex items-center py-1 px-3 my-6 text-lg rounded text-sky-200 font-bold hover:text-yellow-300"
+                    activeClassName="text-sky-100 bg-red-700">
                         Projects
                     </NavLink>
 
                     <NavLink to="/post" 
-                    className="inflex-flex items-center py-1 px-3 my-6 text-lg rounded text-red-200 font-bold hover:text-yellow-300"
-                    activeClassName="text-red-100 bg-red-700">
+                    className="inflex-flex items-center py-1 px-3 my-6 text-lg rounded text-sky-200 font-bold hover:text-yellow-300"
+                    activeClassName="text-sky-100 bg-red-700">
                         Library
                     </NavLink>
                     <NavLink to="/about" 
-                    className="inflex-flex items-center py-1 px-3 my-6 text-lg rounded text-red-200 font-bold hover:text-yellow-300"
-                    activeClassName="text-red-100 bg-red-700">
+                    className="inflex-flex items-center py-1 px-3 my-6 text-lg rounded text-sky-200 font-bold hover:text-yellow-300"
+                    activeClassName="text-sky-100 bg-red-700">
                         About me!
                     </NavLink>
                 </nav>

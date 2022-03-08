@@ -22,11 +22,11 @@ export default function Post() {
         .catch(console.error);
     }, []);
 
-    return (<main className="bg-rose-50 min-h-screen p-12">
+    return (<main className="bg-gradient-to-r from-gray-800 to-gray-800 min-h-screen p-12">
             <section className="container mx-auto">
-            <h1 className="text-6xl flex justify-center crusive mb-2">My Library</h1>
-            <h2 className="text-lg text-gray-600 flex justify-center">Here you can find some books that I'm reading or have finished. </h2>
-            <h2 className="text-lg text-gray-600 flex justify-center mb-12">I will be glad if you also like some of them.</h2>
+            <h1 className="text-6xl flex justify-center text-sky-50 crusive mb-2">My Library</h1>
+            <h2 className="text-lg text-gray-400 flex justify-center">Here you can find some books that I'm reading or have finished. </h2>
+            <h2 className="text-lg text-gray-400 flex justify-center mb-12">I will be glad if you also like some of them.</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
                 {PostData && PostData.map((post, index) => (
                 <article>
