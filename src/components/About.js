@@ -34,7 +34,7 @@ export default function About() {
                                 <span className="text-rosee-50">{me.name}</span>
                             </h1>
                             <div className= "prose lg:prose-xl text-rose-50">
-                                <BlockContent blocks={me.bio} projectId = "985hlruw" dataset = "newdata"/>
+                                <BlockContent blocks={me.bio} projectId="985hlruw" dataset="newdata"/>
                             </div>
                         </div>
                 </section>

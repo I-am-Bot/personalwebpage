@@ -7,11 +7,11 @@ export default function Home() {
     return(
         <main>
             <div class="flex">
-                <div className="container mx-0 w-2/5 ml-0 mr-0 mt-0 mb-10 ">
+                <div className="container mx-0 w-2/5 ml-0 mr-0 mt-0 mb-10 border-solid border-r-4 border-sky-200">
                     <img src={image} alt="myphoto" ></img>
                 </div>
                 <div className="justify-center bg-gradient-to-r from-gray-800 to-gray-800  pt-12 ml-0 mr-1 mt-0 mb-10 lg: pt-50 w-3/5">
-                    <span class="before:block before:absolute before:-inset-4 before:-skew-y-1  before:bg-gradient-to-r from-gray-900 to-gray-800 relative inline-block mb-8">
+                    <span class="before:block before:absolute before:-inset-5 before:-skew-y-1  before:bg-gradient-to-r from-gray-900 to-gray-800 relative inline-block mb-8">
                     <span class="relative text-7xl text-sky-50 text-bold">Hi! I'm Yaxin.</span>
                     </span>
                     <br></br>

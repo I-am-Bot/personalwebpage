@@ -9,6 +9,7 @@ export default function Post() {
         sanityClient
         .fetch(`*[_type == "post"]{
             title,
+            _id,
             slug,
             mainImage{
                 asset->{
@@ -27,7 +28,7 @@ export default function Post() {
             <h1 className="text-6xl flex justify-center text-sky-50 crusive mb-2">My Library</h1>
             <h2 className="text-lg text-gray-400 flex justify-center">Here you can find some books that I'm reading or have finished. </h2>
             <h2 className="text-lg text-gray-400 flex justify-center mb-12">I will be glad if you also like some of them.</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
                 {PostData && PostData.map((post, index) => (
                 <article>
                     <Link to={"/post/" + post.slug.current} key={post.slug.current}>
